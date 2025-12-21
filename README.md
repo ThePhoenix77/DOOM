@@ -1,4 +1,4 @@
-# CUB-3d
+# DOOM
 
 # Integrated Roadmap: Mandatory + Bonus (Completed in 4 Weeks)
 ## Week 1: Project Setup + Initial Features
