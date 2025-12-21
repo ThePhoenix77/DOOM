@@ -89,5 +89,3 @@ Tasks:
         - Puuuuuusshhhhhhhhhhhhhhhhhhh
 
 Expected Completion: End of Week 4 (Project Completed Inchaa Allah)
-
-nice reference : mrochedy/42-cub3D
