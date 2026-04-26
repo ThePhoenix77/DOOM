@@ -2,6 +2,8 @@
 
 A 3D maze explorer built in C, inspired by the original **Wolfenstein 3D** and **DOOM** games. This project is part of the [42 school](https://42.fr) curriculum and implements a full raycasting engine from scratch using the **MiniLibX** graphics library.
 
+https://github.com/user-attachments/assets/09f88c36-61c2-45de-9f79-f85c4f35f238
+
 ---
 
 ## Table of Contents
