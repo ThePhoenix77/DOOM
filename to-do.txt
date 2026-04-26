@@ -7,7 +7,7 @@ norminette
 fix norminette in gun
 create the necessary files
 make the gun firing animation
-fix the make file
+fix the makefile
 fix the color parsing , first count how many commas u have, then check if the line has any unwanted character, then split it with ',' , then check the number if they are valid
 
 

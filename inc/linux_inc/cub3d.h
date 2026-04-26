@@ -37,13 +37,23 @@ enum
 #define CELL_SIZE 32          // Map tile size
 #define FOV 0.66               // Field of view
 
-#define W_KEY 119          // W key for forward
-#define A_KEY 97           // A key for strafe left
-#define S_KEY 115          // S key for backward
-#define D_KEY 100          // D key for strafe right
-#define LEFT_KEY 65361     // Left arrow key for rotating left
-#define RIGHT_KEY 65363    // Right arrow key for rotating right
-#define ESCAPE_KEY 65307   // Escape key
+#if defined(__APPLE__)
+# define W_KEY 13
+# define A_KEY 0
+# define S_KEY 1
+# define D_KEY 2
+# define LEFT_KEY 123
+# define RIGHT_KEY 124
+# define ESCAPE_KEY 53
+#else
+# define W_KEY 119
+# define A_KEY 97
+# define S_KEY 115
+# define D_KEY 100
+# define LEFT_KEY 65361
+# define RIGHT_KEY 65363
+# define ESCAPE_KEY 65307
+#endif
 
 #define MOVE_SPEED 2.8
 #define ROT_SPEED 0.06
@@ -52,8 +62,8 @@ enum
 
 #define PI 3.141592653589793
 
-#define MAP_WIDTH 2400
-#define MAP_HEIGHT 800
+#define MAP_WIDTH 1366
+#define MAP_HEIGHT 768
 
 #define MINIMAP_CENTER_X 100 // Adjust as needed for your window dimensions
 #define MINIMAP_CENTER_Y 100

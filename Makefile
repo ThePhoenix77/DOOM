@@ -1,7 +1,7 @@
 NAME = cub3D
 
 CC = cc
-CFLAGS = -Wall -Wextra -Werror -Ofast #-fsanitize=address
+CFLAGS = -Wall -Wextra -Werror -O3 #-fsanitize=address
 
 MLX_MACOS = mlx_macos/libmlx.a
 MLX_LINUX = mlx_linux/libmlx.a
@@ -22,7 +22,7 @@ else
 endif
 
 SRCS_DIR = src
-OBJS_DIR = obj
+OBJS_DIR = obj/$(OS)
 SRCS = $(shell find $(SRCS_DIR) -type f -name "*.c")
 OBJS = $(patsubst $(SRCS_DIR)/%.c, $(OBJS_DIR)/%.o, $(SRCS))
 
